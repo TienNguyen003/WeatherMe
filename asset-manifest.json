@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/TienNguyen003/Weather.git/static/css/main.1888bd67.css",
+    "main.js": "/TienNguyen003/Weather.git/static/js/main.4d2f7f58.js",
+    "static/js/787.13d76ca7.chunk.js": "/TienNguyen003/Weather.git/static/js/787.13d76ca7.chunk.js",
+    "static/media/19.jpg": "/TienNguyen003/Weather.git/static/media/19.bb00e97912124beed6d2.jpg",
+    "static/media/photo-3.jpg": "/TienNguyen003/Weather.git/static/media/photo-3.215b8c21ab829d432409.jpg",
+    "static/media/photo_4.jpg": "/TienNguyen003/Weather.git/static/media/photo_4.23492b8a522f6aca935d.jpg",
+    "index.html": "/TienNguyen003/Weather.git/index.html",
+    "main.1888bd67.css.map": "/TienNguyen003/Weather.git/static/css/main.1888bd67.css.map",
+    "main.4d2f7f58.js.map": "/TienNguyen003/Weather.git/static/js/main.4d2f7f58.js.map",
+    "787.13d76ca7.chunk.js.map": "/TienNguyen003/Weather.git/static/js/787.13d76ca7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1888bd67.css",
+    "static/js/main.4d2f7f58.js"
+  ]
+}
