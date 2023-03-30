@@ -1,0 +1,41 @@
+.animation-bacground{
+    animation: placeHolderShimmer 2s linear infinite forwards;
+    background-color: #f6f7f8;
+    background: linear-gradient(to right, #e2e2de70 8%, #d3d3ce84 18%, #c0c0bd45 33%);
+    height: 100vh;
+    position: relative;
+}
+@keyframes placeHolderShimmer {
+    0% {
+        background-position: -800px 0
+    }
+    100% {
+        background-position: 800px 0
+    }
+}
+.none{
+    display: none;
+}
+.detail {
+    display: flex;
+    margin: 0 80px;
+}
+.title {
+    margin-top: 50px;
+    margin-left: 80px;
+    background-image: url(https://phandroid.s3.amazonaws.com/wp-content/uploads/2014/05/rainbow-nebula.jpg);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: center;
+    color: #ffffff;
+    font-size: 2.5rem;
+    animation: filling 3s ease forwards;
+}
+@keyframes filling {
+    from {
+        background-position: center 25%;
+    }
+    to {
+        background-position: center 50%;
+    }
+}
