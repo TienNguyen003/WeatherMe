@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/TienNguyen003/WeatherMe.git/static/css/main.923ca935.css",
+    "main.js": "/TienNguyen003/WeatherMe.git/static/js/main.e8c7f6bf.js",
+    "static/js/787.13d76ca7.chunk.js": "/TienNguyen003/WeatherMe.git/static/js/787.13d76ca7.chunk.js",
+    "static/media/19.jpg": "/TienNguyen003/WeatherMe.git/static/media/19.bb00e97912124beed6d2.jpg",
+    "static/media/photo-3.jpg": "/TienNguyen003/WeatherMe.git/static/media/photo-3.215b8c21ab829d432409.jpg",
+    "static/media/photo_4.jpg": "/TienNguyen003/WeatherMe.git/static/media/photo_4.23492b8a522f6aca935d.jpg",
+    "index.html": "/TienNguyen003/WeatherMe.git/index.html",
+    "main.923ca935.css.map": "/TienNguyen003/WeatherMe.git/static/css/main.923ca935.css.map",
+    "main.e8c7f6bf.js.map": "/TienNguyen003/WeatherMe.git/static/js/main.e8c7f6bf.js.map",
+    "787.13d76ca7.chunk.js.map": "/TienNguyen003/WeatherMe.git/static/js/787.13d76ca7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.923ca935.css",
+    "static/js/main.e8c7f6bf.js"
+  ]
+}
