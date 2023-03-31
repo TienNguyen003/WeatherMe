@@ -1,0 +1,189 @@
+.header-sidebar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 10px 100px;
+    font-family: 'Centaur';
+    // background-color: #fff;
+}
+.info {
+    display: flex;
+    align-items: center;
+    font-family: 'Monotype Corsiva';
+    cursor: pointer;
+
+    .name-logo {
+        width: 100%;
+        font-size: 4rem;
+        background: linear-gradient(
+            to right,
+            #ff0000 0%,
+            #fdff04 50%,
+            #ff00008a 100%
+        );
+        background-clip: text;
+        color: transparent;
+    }
+}
+.search {
+    display: flex;
+    position: relative;
+    width: 361px;
+    height: 46px;
+    padding: 0 0 0 16px;
+    background-color: rgba(22, 24, 35, 0.06);
+    border-radius: 92px;
+    border: 1.5px solid transparent;
+
+    .input-search {
+        flex: 1 1;
+        height: 100%;
+        padding-right: 30px;
+        color: #000;
+        font-size: 1.6rem;
+        caret-color: rgba(22, 24, 35, 0.5);
+        background-color: rgba(22, 24, 35, 0);
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: 9px;
+        right: 52px;
+        height: calc(46px - 9px * 2);
+        width: 1px;
+        background-color: rgba(22, 24, 35, 0.2);
+    }
+
+    .icon-search {
+        width: 52px;
+        height: 100%;
+        color: rgba(22, 24, 35, 0.4);
+        border-top-right-radius: 92px;
+        border-bottom-right-radius: 92px;
+        font-size: 1.2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+}
+
+@keyframes filling {
+    from {
+        background-position: center 25%;
+    }
+    to {
+        background-position: center 50%;
+    }
+}
+
+.current-time {
+    background-image: url(https://phandroid.s3.amazonaws.com/wp-content/uploads/2014/05/rainbow-nebula.jpg);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 90px;
+    font-size: 2.5rem;
+    animation: filling 3s ease forwards;
+}
+
+// info detail
+.detail {
+    display: flex;
+    margin: 0 150px 40px 180px;
+    padding-top: 20px;
+}
+.info-detail {
+    display: flex;
+    align-items: center;
+    background: no-repeat center/cover;
+    background: url(../../../../public/image/photo-3.jpg) no-repeat center/cover;
+    width: 440px;
+    height: 330px;
+    padding: 30px 20px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+.name {
+    font-size: 4rem;
+    font-family: cursive;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+.temps {
+    display: inline-block;
+    padding: 20px;
+    font-size: 65px;
+    font-weight: 800;
+    text-shadow: 4px 4px rgba(0, 0, 0, 0.6);
+    box-shadow: 2px 2px 0 2px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 15px;
+}
+.temps,
+.favorable-climate,
+.sun {
+    display: flex;
+    justify-content: center;
+}
+.temp {
+    line-height: 1;
+    font-size: 10rem;
+}
+.all {
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+}
+.sign {
+    font-size: 4rem;
+}
+.decription {
+    font-size: 4rem;
+    font-weight: 600;
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.4);
+}
+.feels-temp,
+.wind,
+.visibility,
+.sunrise,
+.humidity,
+.pressure {
+    font-size: 1.8rem;
+    margin: 5px 8px 0;
+}
+
+// forecast
+.forecast {
+    display: flex;
+    margin-bottom: 40px;
+}
+.forecast-name {
+    background-image: url(https://phandroid.s3.amazonaws.com/wp-content/uploads/2014/05/rainbow-nebula.jpg);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-align: center;
+    color: #ffffff;
+    font-size: 2.5rem;
+    animation: filling 3s ease forwards;
+}
+.temp-24 {
+    margin-top: 30px;
+    margin-left: 180px;
+}
+.detail-weather{
+    margin-right: 180px;
+    width: 450px;
+}
+.see-more{
+    margin-top: 100px;
+}
+.button{
+    margin-top: 50px;
+}
