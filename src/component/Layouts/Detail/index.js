@@ -14,11 +14,11 @@ function DetailWeather() {
     const refNone = useRef();
 
     const handleOnload = () => {
-        setInterval(() => {
+        setTimeout(() => {
             refAnimation.current.classList.remove(
-                'Detail_animation-bacground__Gwugo',
+                'Detail_animation-bacground__mfx8X',
             );
-            refNone.current.classList.remove('Detail_none__nptUZ');
+            refNone.current.classList.remove('Detail_none__vdlGu');
         }, 2000);
     };
 

@@ -1,4 +1,4 @@
-import DetailWeather from '../../component/Layouts/Detail';
+import DetailWeather from '../../component/Layouts/Detail/index.js'
 
 function Detail() {
     return (

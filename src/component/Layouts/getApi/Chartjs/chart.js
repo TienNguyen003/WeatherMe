@@ -17,7 +17,7 @@ function Charts({ data }) {
             chart = new Chart(canvas, {
                 data: {
                     labels: data
-                        .slice(0, 9)
+                        .slice(2, 11)
                         .map((item) => item.dt_txt.slice(10, 16)),
                     datasets: [
                         {

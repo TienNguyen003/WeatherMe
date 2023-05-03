@@ -34,16 +34,16 @@ function DetailHourly() {
 
     useEffect(() => {
         const weathersTime = document.querySelector(
-            '.detailHourly_weather-time__JUM3H',
+            '.detailHourly_weather-time__A9pTa',
         );
-        const button = document.querySelectorAll('.Button_wrapper__DYjGD');
-        button.forEach((item, index) => {
+        const button = document.querySelectorAll('.Button_wrapper__C7Jgp');
+        button.forEach((item) => {
             item.onclick = () => {
                 for (let i = 0; i < button.length; i++) {
-                    button[i].classList.remove('Button_primary__cYqjz');
+                    button[i].classList.remove('Button_primary__3Uq+s');
                 }
-                item.classList.add('Button_primary__cYqjz');
-                const span = item.querySelector('.Button_title__1OWSG');
+                item.classList.add('Button_primary__3Uq+s');
+                const span = item.querySelector('.Button_title__vlRey');
                 arr.map((item) => {
                     if (item.dt_txt.slice(5, 10) === span.innerHTML) {
                         news.push(item);

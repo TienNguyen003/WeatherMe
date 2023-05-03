@@ -64,6 +64,7 @@
         width: 52px;
         height: 100%;
         color: rgba(22, 24, 35, 0.4);
+        background-color: rgba(22, 24, 35, 0);
         border-top-right-radius: 92px;
         border-bottom-right-radius: 92px;
         font-size: 1.2rem;
@@ -177,13 +178,13 @@
     margin-top: 30px;
     margin-left: 180px;
 }
-.detail-weather{
+.detail-weather {
     margin-right: 180px;
     width: 450px;
 }
-.see-more{
+.see-more {
     margin-top: 100px;
 }
-.button{
+.button {
     margin-top: 50px;
 }

@@ -42,9 +42,7 @@ function Charts({ data }) {
                         {
                             type: 'line',
                             label: 'Lưu lượng mưa (mm)',
-                            data: precipitation.map(
-                                (item) => item,
-                            ),
+                            data: precipitation.map((item) => item),
                             borderWidth: 1,
                             borderColor: [
                                 'rgb(255, 99, 132)',
@@ -69,9 +67,7 @@ function Charts({ data }) {
                         {
                             type: 'line',
                             label: 'Tỉ lệ có mưa (%)',
-                            data: precipitation_probability.map((item) =>
-                                item,
-                            ),
+                            data: precipitation_probability.map((item) => item),
                             borderWidth: 1,
                             borderColor: [
                                 'rgb(255, 99, 132)',
