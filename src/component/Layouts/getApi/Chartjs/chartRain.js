@@ -43,7 +43,7 @@ function Charts({ data }) {
                             type: 'line',
                             label: 'Lưu lượng mưa (mm)',
                             data: precipitation.map(
-                                (item) => item + Math.random() * 3,
+                                (item) => item,
                             ),
                             borderWidth: 1,
                             borderColor: [
