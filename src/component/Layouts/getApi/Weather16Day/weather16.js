@@ -23,7 +23,7 @@ function Weather16Day() {
 
     useEffect(() => {
         fetch(
-            `https://api.weatherbit.io/v2.0/forecast/daily?lat=${lat.current}&lon=${lon.current}&key=e1306917cbe54a83b9dd96751898801d`,
+            `https://api.weatherbit.io/v2.0/forecast/daily?lat=${lat.current}&lon=${lon.current}&key=0bc63addb4184cb69fc900bf67d3ffc8`,
         )
             .then((res) => res.json())
             .then((data) => {
