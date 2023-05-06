@@ -1,3 +1,4 @@
+/* eslint-disable eqeqeq */
 /* eslint-disable array-callback-return */
 import classNames from 'classnames/bind';
 import { useEffect, useRef, useState } from 'react';
