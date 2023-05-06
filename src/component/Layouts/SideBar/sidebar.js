@@ -46,7 +46,7 @@ function SideBar() {
                     data.cod === 200 ? setData(data) : (debounce = 'Ha Noi');
                 });
             fetch(
-                `http://api.openweathermap.org/data/2.5/forecast?q=${debounce}&appid=d78fd1588e1b7c0c2813576ba183a667`,
+                `https://api.openweathermap.org/data/2.5/forecast?q=${debounce}&appid=d78fd1588e1b7c0c2813576ba183a667`,
             )
                 .then((res) => res.json())
                 .then((data) => {
