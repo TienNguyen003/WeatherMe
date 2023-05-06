@@ -1,6 +1,6 @@
 const routes = {
-    Home: '/Weather',
-    Detail: '/Weather/Detail',
+    Home: '/WeatherMe',
+    Detail: '/WeatherMe/Detail',
 };
 
 export default routes;
