@@ -6,7 +6,6 @@ import styles from './airquality.module.scss';
 const cx = classNames.bind(styles);
 
 function CheckAqi({ aqi = 5, parent }) {
-    console.log(parent);
     const sendData = () => {
         if (notePeople.current === '') {
             notePeople.current =

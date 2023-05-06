@@ -9,22 +9,22 @@ function ImageIcon({ hour = 10, weather, temp, className }) {
     if (hour <= 18 && hour >= 6) {
         if (temp > 15) {
             if (weather.includes('Clouds') || weather.includes('clouds')) {
-                src = './image/1_4.png';
+                src = 'https://i.imgur.com/4p2LGLF.png';
             }
             if (weather.includes('Clear') || weather.includes('clear')) {
-                src = './image/1_2.png';
+                src = 'https://i.imgur.com/seaIsmf.png';
             }
             if (weather.includes('rain') || weather.includes('Rain')) {
-                src = './image/2_4.png';
+                src = 'https://i.imgur.com/v03wYFv.png';
             }
         } else {
-            src = './image/6_3.png';
+            src = 'https://i.imgur.com/Joh4VzT.png';
         }
     } else {
         if (weather.includes('rain') || weather.includes('Rain')) {
-            src = './image/6_2.png';
+            src = 'https://i.imgur.com/EoM4sQu.png';
         } else {
-            src = './image/6_1.png';
+            src = 'https://i.imgur.com/7oMce65.png';
         }
     }
 

@@ -28,33 +28,39 @@ function Weather16Day() {
             .then((res) => res.json())
             .then((data) => {
                 setResult(data.data);
+                console.log(data.data);
             });
     }, []);
 
     return (
         <div className={cx('result')}>
-            {result.slice(1, 10).map((item, index) => {
-                const date = new Date();
-                const hour = date.getHours();
-                return (
-                    <div className={cx('result-item')} key={index}>
-                        <p className={cx('date')}>
-                            {item.datetime.slice(5, 10)}
-                        </p>
-                        <ImageIcon
-                            hour={hour}
-                            temp={item.temp}
-                            weather={item.weather.description}
-                            className={cx('image')}
-                        />
-                        <div className={cx('temp')}>
-                            {Math.floor(item.temp)}°C{' '}
-                            <p className={cx('temp-min')}>{Math.floor(item.app_min_temp)}°C</p>
+            {result != undefined &&
+                result.slice(1, 10).map((item, index) => {
+                    const date = new Date();
+                    const hour = date.getHours();
+                    return (
+                        <div className={cx('result-item')} key={index}>
+                            <p className={cx('date')}>
+                                {item.datetime.slice(5, 10)}
+                            </p>
+                            <ImageIcon
+                                hour={hour}
+                                temp={item.temp}
+                                weather={item.weather.description}
+                                className={cx('image')}
+                            />
+                            <div className={cx('temp')}>
+                                {Math.floor(item.temp)}°C{' '}
+                                <p className={cx('temp-min')}>
+                                    {Math.floor(item.app_min_temp)}°C
+                                </p>
+                            </div>
+                            <p className={cx('desc')}>
+                                {item.weather.description}
+                            </p>
                         </div>
-                        <p className={cx('desc')}>{item.weather.description}</p>
-                    </div>
-                );
-            })}
+                    );
+                })}
         </div>
     );
 }

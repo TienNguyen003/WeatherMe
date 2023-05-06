@@ -32,13 +32,13 @@ function ForecastWeather({ data }) {
                             item.dt_txt.slice(11, 13) <= 18 ? (
                                 <img
                                     className={cx('icon')}
-                                    src="./image/1_2.png"
+                                    src="https://i.imgur.com/seaIsmf.png"
                                     alt="nang"
                                 />
                             ) : (
                                 <img
                                     className={cx('icon')}
-                                    src="./image/6_1.png"
+                                    src="https://i.imgur.com/7oMce65.png"
                                     alt="toi"
                                 />
                             )}
@@ -56,7 +56,7 @@ function ForecastWeather({ data }) {
                         <div className={cx('energy')}>
                             <div className={cx('humidity')}>
                                 <img
-                                    src="./image/4_1.png"
+                                    src="https://thoitiet.app/assets/images/icon-1/humidity-xl.svg"
                                     alt="am"
                                     className={cx('icon-humidity')}
                                 />
@@ -64,7 +64,7 @@ function ForecastWeather({ data }) {
                             </div>
                             <div className={cx('wind')}>
                                 <img
-                                    src="./image/5_1.png"
+                                    src="https://thoitiet.app/assets/images/icon-1/ph-wind.svg"
                                     alt="gio"
                                     className={cx('icon-wind')}
                                 />
